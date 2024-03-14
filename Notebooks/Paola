@@ -56,12 +56,12 @@ data_2015.columns
 
 sns.pairplot(data_2015)
 
-df15=pd.read_csv('../input/world-happiness/2015.csv')
-df16=pd.read_csv('../input/world-happiness/2016.csv')
-df17=pd.read_csv('../input/world-happiness/2017.csv')
-df18=pd.read_csv('../input/world-happiness/2018.csv')
+df15=pd.read_csv('C:/Users/paola/Documents/Data_Sets/Is-the-world-happy/Datasets/Raw Data/2015.csv')
+df16=pd.read_csv('C:/Users/paola/Documents/Data_Sets/Is-the-world-happy/Datasets/Raw Data/2016.csv')
+df17=pd.read_csv('C:/Users/paola/Documents/Data_Sets/Is-the-world-happy/Datasets/Raw Data/2017.csv')
+df18=pd.read_csv('C:/Users/paola/Documents/Data_Sets/Is-the-world-happy/Datasets/Raw Data/2018.csv')
 
-df18['Year']='2018'
+df15['Year']='2018'
 df15['Year']='2015'
 df16['Year']='2016'
 df17['Year']='2017'
