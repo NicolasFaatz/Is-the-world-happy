@@ -1,0 +1,18 @@
+Barplot.ipny
+
+
+
+
+
+
+
+
+
+
+Correlation.ipynb is the program to load in the different datasets of each year from the "is the world happy" project and to show correlations of the different columns with each other.
+x is therefore the specific year one wants to see the correlations of each other.
+the function read(x) reads in the datasets and aranges that each of them has the same named and sorted columns. Also a new column "target" is created to visualize the correlations depending on the ranking of the single country.
+Therefore, all countrys are redistributed into five groups depending on their rank.
+Next correlations with heatmaps for each year is produced as well as their corelations for happiness score against another column saved in the list u for each year.
+u is then averaged and a standard deviation taken of to produce a residual graph versus the evolution in the years.
+The next three plots are creating scatter plots of individual columns versus each other as well as all columns against each other each for a specific year x.
