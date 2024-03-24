@@ -1,18 +1,28 @@
-Barplot.ipny
+##### Barplot.ipynb is a notebook which shows the happienes in different Regions.
 
+It's load the used Datasets and then shows the happiness distrubution across the wolrd map of each region. 
+After it's show the regional differences it's check if there is a change in the mean score over the years.
+At last it shows the most happy and least happy countries across 2015 till 2019.
 
+#### Maxcolumn.ipynb is a notebook which shows the columns which has the biggest impact on the happiness score.
 
+It's load the used Datasets and then create a new column which shows which variable has the most inpact on the happiness score.
+At next it's shows the distrubution on the max column in dependency on the happiness score.
+The last cell plots the world and the countries are colored in colors which shows which is the max column in the Country.
+It's all based on the years 2015 and 2016.
 
+#### World map.ipynb is a notebook which plot the world map 
 
+It's load the used Datasets and then the library for plotting the library folium is used.
+First it plots the world where all countries from where is data are colored  pink. 
+Second it fills the color based on the happiness score.
 
+##### Correlation.ipynb is the notebook to load in the different datasets of each year from the "is the world happy" project and to show correlations of the different columns with each other.
 
-
-
-
-Correlation.ipynb is the program to load in the different datasets of each year from the "is the world happy" project and to show correlations of the different columns with each other.
 x is therefore the specific year one wants to see the correlations of each other.
 the function read(x) reads in the datasets and aranges that each of them has the same named and sorted columns. Also a new column "target" is created to visualize the correlations depending on the ranking of the single country.
 Therefore, all countrys are redistributed into five groups depending on their rank.
 Next correlations with heatmaps for each year is produced as well as their corelations for happiness score against another column saved in the list u for each year.
 u is then averaged and a standard deviation taken of to produce a residual graph versus the evolution in the years.
 The next three plots are creating scatter plots of individual columns versus each other as well as all columns against each other each for a specific year x.
+
