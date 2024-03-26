@@ -18,13 +18,14 @@ data_2016=pd.read_csv(r'C:\Users\paola\Documents\Data_Sets\Is-the-world-happy\Da
 data_2017=pd.read_csv(r'C:\Users\paola\Documents\Data_Sets\Is-the-world-happy\Datasets\Raw Data\2017.csv')
 
 data_2015.columns=[each.split()[0] if(len(each.split())>2) else each.replace(" ","_") for each in data_2015.columns]
-
 data_2016.columns=[each.split()[0] if(len(each.split())>2) else each.replace(" ","_") for each in data_2016.columns]
 data_2017.columns=[each.replace("."," ") for each in data_2017.columns]
 data_2017.columns=[each.split()[0] if(len(each.split())>2) else each.replace(" ","_") for each in data_2017.columns]
 
 data_2015.head(10)
 data_2015.info()
+
+
 
 print("Are There Missing Data? :",data_2015.isnull().any().any())
 print(data_2015.isnull().sum())
